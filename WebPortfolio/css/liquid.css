@@ -1,0 +1,80 @@
+/*CSS code for liquid.css
+@author Cody Daffinson  */
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  postion: fixed;
+  top: 0;
+  width:100%;
+}
+
+#name{
+  color: #fff;
+  display: inline; 
+  float: left; 
+  margin: 0px;
+  padding: 14px 16px
+}
+
+#title{
+  color: #fff;
+    display: inline; 
+	float: left;
+	margin: 0px;
+	padding: 14px 16px
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+body{
+	width: 90%;
+	margin: 0 auto;
+	background-image:url(../images/background-image.jpg);
+}
+
+#content {
+		overflow: auto;
+		text-align: center;
+}
+
+#feature, #footer{
+		margin: 1%;
+}
+
+.column1, .column2, .column3 {
+		width: 31.3%;
+		float: left;
+		margin: 1%;
+}
+
+.column3 {
+		margin-right: 0%;
+}
+
+#footer {
+		background-color: #efefef;
+		padding: 0.5em 0;
+}
+
+#feature, .article {
+		height: 10em;
+		margin-bottom: 1em;
+		background-color: #efefef;
+}
+	
